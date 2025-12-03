@@ -1,0 +1,12 @@
+void printpointer(int (*p)[N]){
+
+    int i;
+    for(i=0;i<N;i++){
+        printf("\n");
+        printf("\t%d",*(p[0] + i));
+        printf("\t%d",*(p[1] + i));
+        printf("\t%d",*(p[2] + i));
+
+    }
+
+}
